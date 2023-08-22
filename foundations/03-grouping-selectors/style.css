@@ -1,0 +1,13 @@
+.buttonOne, .buttonTwo {
+    font-size: 3rem;
+    border: solid 3px darkslategray;
+}
+.buttonOne {
+    background: black;
+    color: white;
+}
+.buttonTwo {
+    background: yellow;
+    color: black;
+
+}
