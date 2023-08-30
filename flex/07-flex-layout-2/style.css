@@ -45,19 +45,19 @@ main {
 }
 .sidebar ul {
     list-style: none;
-    padding: .5rem .75rem;
+    padding: 0.5rem 0.75rem;
     margin: 0;
     line-height: 240%;
 }
 @media screen and (max-width: 500px) {
-  main {
-    flex-direction: column;
-  }
-  .sidebar ul {
-    display: flex;
-    gap: 0.75rem;
-    text-align: center;
-  }
+    main {
+        flex-direction: column;
+    }
+    .sidebar ul {
+        display: flex;
+        gap: 0.75rem;
+        text-align: center;
+    }
 }
 
 .main-content {
@@ -72,8 +72,6 @@ main {
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
     border-radius: 4px;
-    padding: .75rem;
-    /* max-width: 400px; */
-    min-width: 25ch;
-    flex: 1;
+    padding: 0.75rem;
+    width: 30ch;
 }
